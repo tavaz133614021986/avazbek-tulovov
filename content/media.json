@@ -1,0 +1,34 @@
+{
+  "items": [
+    {
+      "type": "podcast",
+      "date": "2026-09-01",
+      "youtube": "",
+      "url": "",
+      "thumbnail": "",
+      "title_uz": "Ilk Qadam Podcast — epizod nomi (namuna, /admin orqali almashtiring)",
+      "title_ru": "Подкаст «Ilk Qadam» — название выпуска (пример)",
+      "title_en": "Ilk Qadam Podcast — episode title (sample)"
+    },
+    {
+      "type": "interview",
+      "date": "2026-07-15",
+      "youtube": "",
+      "url": "",
+      "thumbnail": "",
+      "title_uz": "Intervyu nomi (namuna, /admin orqali almashtiring)",
+      "title_ru": "Название интервью (пример)",
+      "title_en": "Interview title (sample)"
+    },
+    {
+      "type": "talk",
+      "date": "2026-05-20",
+      "youtube": "",
+      "url": "",
+      "thumbnail": "",
+      "title_uz": "Konferensiyadagi chiqish (namuna, /admin orqali almashtiring)",
+      "title_ru": "Выступление на конференции (пример)",
+      "title_en": "Conference talk (sample)"
+    }
+  ]
+}

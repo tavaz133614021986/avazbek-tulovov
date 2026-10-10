@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  <url>
+    <loc>https://mysite.uz/</loc>
+    <xhtml:link rel="alternate" hreflang="uz" href="https://mysite.uz/?lang=uz"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://mysite.uz/?lang=ru"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://mysite.uz/?lang=en"/>
+    <changefreq>monthly</changefreq>
+    <priority>1.0</priority>
+  </url>
+  <url>
+    <loc>https://mysite.uz/insights.html</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url><loc>https://mysite.uz/post.html?slug=merit-before-money</loc><priority>0.6</priority></url>
+  <url><loc>https://mysite.uz/post.html?slug=systems-over-people</loc><priority>0.6</priority></url>
+  <url><loc>https://mysite.uz/post.html?slug=prepare-for-life</loc><priority>0.6</priority></url>
+</urlset>

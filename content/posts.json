@@ -1,0 +1,52 @@
+{
+  "posts": [
+    {
+      "slug": "merit-before-money",
+      "date": "2026-09-20",
+      "category": "education",
+      "cover": "",
+      "draft": false,
+      "title_uz": "Merit Before Money: nega ta’limda salohiyat puldan ustun turishi kerak",
+      "title_ru": "Merit Before Money: почему в образовании потенциал важнее денег",
+      "title_en": "Merit Before Money: why potential must come before means in education",
+      "excerpt_uz": "Ta’lim tizimi kimga xizmat qilishi kerak — to‘lay oladiganlargami yoki o‘qiy oladiganlargami? Registan falsafasining asosiy tamoyili haqida.",
+      "excerpt_ru": "Кому должна служить система образования — тем, кто может платить, или тем, кто может учиться? О главном принципе философии Registan.",
+      "excerpt_en": "Who should an education system serve — those who can pay, or those who can learn? On the core principle behind Registan.",
+      "body_uz": "Ta’lim — bu oddiy biznes emas. Bu avlodlar taqdiriga ta’sir qiluvchi mas’uliyat.\n\n## Asosiy tamoyil\n\n**Merit Before Money** — bilim, mehnat, salohiyat va natija moliyaviy imkoniyatdan ustun turishi kerak.\n\n> Kuchli ta’lim kuchli ustozdan boshlanadi.\n\nBu tamoyil uchta savolga javob beradi:\n\n1. Kimni qabul qilamiz?\n2. Kimni rag‘batlantiramiz?\n3. Natijani qanday o‘lchaymiz?\n\n*Bu namuna maqola — /admin orqali tahrirlang yoki o‘chiring.*",
+      "body_ru": "Образование — это не просто бизнес. Это ответственность, влияющая на судьбы поколений.\n\n## Главный принцип\n\n**Merit Before Money** — знания, труд, потенциал и результат должны стоять выше финансовых возможностей.\n\n> Сильное образование начинается с сильного учителя.\n\n*Это пример статьи — отредактируйте или удалите её через /admin.*",
+      "body_en": "Education is not just a business. It is a responsibility that shapes generations.\n\n## The core principle\n\n**Merit Before Money** — knowledge, hard work, potential and results must matter more than financial means.\n\n> Great education starts with a great teacher.\n\n*This is a sample article — edit or delete it in /admin.*"
+    },
+    {
+      "slug": "systems-over-people",
+      "date": "2026-08-14",
+      "category": "management",
+      "cover": "",
+      "draft": false,
+      "title_uz": "Tizim insonlarga emas, jarayonlarga tayanishi kerak",
+      "title_ru": "Система должна опираться на процессы, а не на людей",
+      "title_en": "Build systems on processes, not on individuals",
+      "excerpt_uz": "O‘nlab filiallarda bir xil sifatni qanday saqlash mumkin? Standartlar, KPI va masshtablanadigan boshqaruv haqida.",
+      "excerpt_ru": "Как сохранить единое качество в десятках филиалов? О стандартах, KPI и масштабируемом управлении.",
+      "excerpt_en": "How do you keep quality consistent across dozens of branches? On standards, KPIs and scalable management.",
+      "body_uz": "Bitta filialda sifatni bitta kuchli rahbar ushlab turishi mumkin. O‘nlab filiallarda esa sifatni faqat **tizim** ushlab turadi.\n\n## Uch asos\n\n- Aniq standartlar\n- O‘lchanadigan natijalar\n- Takrorlanadigan jarayonlar\n\n*Bu namuna maqola — /admin orqali tahrirlang yoki o‘chiring.*",
+      "body_ru": "В одном филиале качество может держать один сильный руководитель. В десятках филиалов его держит только **система**.\n\n- Чёткие стандарты\n- Измеримые результаты\n- Повторяемые процессы\n\n*Это пример статьи — отредактируйте или удалите её через /admin.*",
+      "body_en": "In one branch, a single strong leader can hold quality together. Across dozens of branches, only a **system** can.\n\n- Clear standards\n- Measurable results\n- Repeatable processes\n\n*This is a sample article — edit or delete it in /admin.*"
+    },
+    {
+      "slug": "prepare-for-life",
+      "date": "2026-07-02",
+      "category": "parenting",
+      "cover": "",
+      "draft": false,
+      "title_uz": "Bolani faqat imtihonga emas, hayotga tayyorlash",
+      "title_ru": "Готовить ребёнка не только к экзамену, но и к жизни",
+      "title_en": "Preparing children for life, not just for exams",
+      "excerpt_uz": "Yaxshi baho — muhim, ammo yetarli emas. Intizom, mas’uliyat va liderlik qanday shakllanadi?",
+      "excerpt_ru": "Хорошие оценки важны, но недостаточны. Как формируются дисциплина, ответственность и лидерство?",
+      "excerpt_en": "Good grades matter, but they are not enough. How do discipline, responsibility and leadership take shape?",
+      "body_uz": "Maktabning vazifasi faqat bilim berish emas. Maktab **intizom, mas’uliyat va liderlikni** ham shakllantirishi kerak.\n\n> Education should not simply prepare students for exams. It should prepare them for life.\n\n*Bu namuna maqola — /admin orqali tahrirlang yoki o‘chiring.*",
+      "body_ru": "Задача школы — не только давать знания. Школа должна формировать **дисциплину, ответственность и лидерство**.\n\n*Это пример статьи — отредактируйте или удалите её через /admin.*",
+      "body_en": "A school’s job is not only to teach knowledge. It must also build **discipline, responsibility and leadership**.\n\n*This is a sample article — edit or delete it in /admin.*"
+    }
+  ]
+}

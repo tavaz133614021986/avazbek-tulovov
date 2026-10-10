@@ -1,0 +1,84 @@
+# Decap CMS — blog va media boshqaruvi
+# Netlify'da: Site settings → Identity → Enable, so‘ng Services → Git Gateway → Enable.
+backend:
+  name: git-gateway
+  branch: main
+
+# Lokal sinov uchun (npx decap-server bilan): true qiling
+local_backend: false
+
+locale: en
+media_folder: "assets/img/uploads"
+public_folder: "assets/img/uploads"
+site_url: "https://mysite.uz"
+display_url: "https://mysite.uz"
+
+collections:
+  - name: "insights"
+    label: "Insights (Blog)"
+    editor: { preview: false }
+    files:
+      - name: "posts"
+        label: "Maqolalar / Статьи / Articles"
+        file: "content/posts.json"
+        fields:
+          - name: "posts"
+            label: "Maqolalar"
+            label_singular: "Maqola"
+            widget: "list"
+            summary: "{{fields.date}} — {{fields.title_uz}}"
+            fields:
+              - { name: "slug", label: "Slug (URL: lotin harflari, tire)", widget: "string", pattern: ["^[a-z0-9-]+$", "Faqat kichik lotin harflari, raqam va tire"] }
+              - { name: "date", label: "Sana", widget: "datetime", format: "YYYY-MM-DD", date_format: "YYYY-MM-DD", time_format: false }
+              - name: "category"
+                label: "Kategoriya"
+                widget: "select"
+                options:
+                  - { label: "Ta’lim", value: "education" }
+                  - { label: "Biznes", value: "business" }
+                  - { label: "Menejment", value: "management" }
+                  - { label: "Farzand tarbiyasi", value: "parenting" }
+                  - { label: "Liderlik", value: "leadership" }
+                  - { label: "Shaxsiy rivojlanish", value: "growth" }
+              - { name: "cover", label: "Muqova rasmi", widget: "image", required: false }
+              - { name: "draft", label: "Qoralama (saytda ko‘rinmaydi)", widget: "boolean", default: false }
+              - { name: "title_uz", label: "Sarlavha (UZ)", widget: "string" }
+              - { name: "excerpt_uz", label: "Qisqa tavsif (UZ)", widget: "text" }
+              - { name: "body_uz", label: "Matn (UZ)", widget: "markdown" }
+              - { name: "title_ru", label: "Заголовок (RU)", widget: "string", required: false }
+              - { name: "excerpt_ru", label: "Краткое описание (RU)", widget: "text", required: false }
+              - { name: "body_ru", label: "Текст (RU)", widget: "markdown", required: false }
+              - { name: "title_en", label: "Title (EN)", widget: "string", required: false }
+              - { name: "excerpt_en", label: "Excerpt (EN)", widget: "text", required: false }
+              - { name: "body_en", label: "Body (EN)", widget: "markdown", required: false }
+
+  - name: "media"
+    label: "Media (Podcast, intervyu...)"
+    editor: { preview: false }
+    files:
+      - name: "media"
+        label: "Media materiallar"
+        file: "content/media.json"
+        fields:
+          - name: "items"
+            label: "Materiallar"
+            label_singular: "Material"
+            widget: "list"
+            summary: "{{fields.type}} — {{fields.title_uz}}"
+            fields:
+              - name: "type"
+                label: "Turi"
+                widget: "select"
+                options:
+                  - { label: "Ilk Qadam Podcast", value: "podcast" }
+                  - { label: "Intervyu", value: "interview" }
+                  - { label: "Chiqish", value: "talk" }
+                  - { label: "Maqola (tashqi)", value: "article" }
+                  - { label: "Tadbir", value: "event" }
+              - { name: "date", label: "Sana", widget: "datetime", format: "YYYY-MM-DD", date_format: "YYYY-MM-DD", time_format: false }
+              - { name: "youtube", label: "YouTube havolasi (ixtiyoriy)", widget: "string", required: false }
+              - { name: "url", label: "Boshqa havola (ixtiyoriy)", widget: "string", required: false }
+              - { name: "thumbnail", label: "Rasm (YouTube bo‘lmasa)", widget: "image", required: false }
+              - { name: "title_uz", label: "Sarlavha (UZ)", widget: "string" }
+              - { name: "title_ru", label: "Заголовок (RU)", widget: "string", required: false }
+              - { name: "title_en", label: "Title (EN)", widget: "string", required: false }
